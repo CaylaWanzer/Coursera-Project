@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(202, 201, 201);
+}
+.topLogo {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    }
+/***************NAV BAR ****************/
+.navBar {
+  background-color: rgb(7, 7, 7);  
+}
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navBar ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    background-color: rgb(7, 7, 7);
+    height: 50px;
+    width: 70px;
+}
+.navBar ul a:hover {
+    background-color: grey;
+}
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/***************SPINNING DIMOND*******************/
+.diamond{
+    display: flex;
+    justify-content: center;
+
+    
+}
+/******************MAIN CONTENT*********************/
+.section1{
+    background-color: rgb(138, 131, 131);
+    color: rgb(10, 10, 10);
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-evenly; /* Centers sections in the row */
+    padding-bottom: 20px;
+}
+
+.info {
+    background-color: rgb(138, 131, 131);
+    color: rgb(8, 8, 8);
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.3);
+}
+.art {
+   text-align: center; 
+}
+.ring {
+    height: 100px;
+}
+
+
+/****************FOOTER ******************/
+.footcolum1 { /*for the logo*/
+    padding: 20px;
+    height: 60px;
+    width: auto;
+}
+.footcolum2{ /*for the copywrite*/
+    padding: 15px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100px;
+
+}
+footer {
+    
+    width: 100%;
+    /* bottom: 0;
+    left: 0; */
+}
+
+main .info {
+    display: flex;
+
+}
+
+
